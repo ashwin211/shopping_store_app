@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onlinestore">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/shopping_icon"
+        android:label="eSTORE"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ProcessActivity"></activity>
+        <activity android:name=".List4Activity" />
+        <activity android:name=".List3Activity" />
+        <activity android:name=".List2Activity" />
+        <activity android:name=".List1Activity" />
+        <activity android:name=".ListActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ShowListItemActivity" />
+        <activity android:name=".FlashscreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
